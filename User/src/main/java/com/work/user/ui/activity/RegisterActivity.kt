@@ -1,8 +1,8 @@
-package com.work.user.ui
+package com.work.user.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.work.user.R
+import com.kotlin.user.R
 
 class RegisterActivity : AppCompatActivity() {
 
