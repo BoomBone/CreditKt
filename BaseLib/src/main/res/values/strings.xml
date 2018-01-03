@@ -1,0 +1,406 @@
+<resources>
+    <string name="app_name">叮当钱袋</string>
+
+    <!--NetWork-->
+    <string name="NO_SERVER">对不起我们的服务器休息了，请您稍后重试~~</string>
+
+    <!--Comment-->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="to_login">未登录,请先登录</string>
+    <string name="to_login2">您好，客官</string>
+    <string name="loading">加载中！</string>
+    <string name="query">正在查询！</string>
+    <string name="posting">正在上传信息！</string>
+    <string name="not_empty">该字段不能为空</string>
+    <string name="empty">\"%s\" 不能为空</string>
+    <string name="had_apply">您已申请一笔 %s ,是否选择再次申请？</string>
+    <string name="having_apply">您已成功申请一笔房易贷，目前正在审核中，您可以在“ %s ”中查询审核状态</string>
+    <string name="net_error_tip">当前网络不可用，请检查您的网络设置</string>
+    <string name="finish_last_step">请先完成上一步操作！</string>
+    <string name="check_base_info">查看基本信息</string>
+
+    <!--Permission-->
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+    <string name="open_connect_permission">未开启读取联系人权限，点击“确认”开启权限，否则无法使用该功能"</string>
+    <string name="open">开启</string>
+
+    <!--Register-->
+    <string name="register_user">用户注册</string>
+    <string name="register_up">注册</string>
+    <string name="register_phone">手机</string>
+    <string name="register_input_pas">请输入密码</string>
+    <string name="register_input_pas_re">请再次输入密码</string>
+    <string name="register_input_invite">请输入邀请的手机号（选填）</string>
+    <string name="register_input_invite_dif">邀请手机号不能与手机号相同</string>
+    <string name="register_getcode">获取手机验证码</string>
+    <string name="register_code">获取验证码</string>
+    <string name="register_phone_wrong">输入的手机号有误</string>
+    <string name="register_pas_empty">密码为空</string>
+    <string name="register_pas_dif">两次密码不相同</string>
+    <string name="register_code_empty">验证码为空</string>
+    <string name="register_code_wrong">验证码错误</string>
+    <string name="register_key_user_icon">头像:</string>
+    <string name="register_key_user_name">昵称:</string>
+    <string name="register_key_user_gender">性别:</string>
+    <string name="register_key_user_UID">U I D:</string>
+    <string name="register_key_user_mail">邮箱:</string>
+    <string name="register_key_user_password">密码:</string>
+    <string name="register_girl">女</string>
+    <string name="register_boy">男</string>
+    <string name="register_UserID">UserID不能修改</string>
+    <string name="tpl_no_sdcard">sdcard 卡不存在</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_failed">注册失败</string>
+
+    <!--Main-->
+    <string name="main_qywh">企业文化</string>
+    <string name="main_cpjs">产品介绍</string>
+    <string name="main_dkbz">贷款保障</string>
+    <string name="main_mddz">门店地址</string>
+    <!--ChangePas-->
+    <string name="change_pas_title">修改密码</string>
+    <string name="change_pas_old">输入旧密码</string>
+    <string name="change_pas_new">输入新密码</string>
+    <string name="change_pas_confirm">确认更改</string>
+    <string name="change_same">新密码不能与原密码一致</string>
+
+    <!--ForgetPassword-->
+    <string name="forpas_title">找回密码</string>
+    <string name="forpas_phone">输入手机号</string>
+    <string name="forpas_code">输入验证码</string>
+    <string name="forpas_get_code">获取验证码</string>
+    <string name="forpas_next">下一步</string>
+    <string name="forpas_set_pas">请设置新密码</string>
+    <string name="forpas_set_pas_tip">1.新密码必须不一样哦？\n2.密码由6-20个字符构成，区分大小写。</string>
+    <string name="forpas_confirm">确认修改</string>
+    <string name="forpas_paswrong">您输入的密码有误</string>
+
+    <!--Share-->
+    <string name="umeng_update_content">版本号：6.4.4\n1.twitter不安装客户端也可以进行分享\n2.facebook不安装客户端也可以进行分享\n3.新浪精简版，修复部分rom不能唤起客户端问题\n4.增加新浪微博linkcard的功能\n5.修改微信精简版分享小程序的相关bug，以及对微信的版本做了适配兼容</string>
+    <string name="umeng_home_title">U-Share产品Demo</string>
+    <string name="umeng_home_update">新版更新内容</string>
+    <string name="umeng_share_title">分享</string>
+    <string name="umeng_auth_title">授权</string>
+    <string name="umeng_delauth_title">删除授权</string>
+    <string name="umeng_getinfo_title">获取用户信息</string>
+    <string name="umeng_check_title">自检工具</string>
+    <string name="umeng_menu_title">分享菜单模板</string>
+
+    <string name="umeng_check_sign">检查签名</string>
+    <string name="umeng_check_sina">检查新浪</string>
+    <string name="umeng_check_wx">检查微信</string>
+    <string name="umeng_check_alipay">检查支付宝</string>
+    <string name="umeng_check_qq">检查qq</string>
+    <string name="umeng_check_fb">检查facebook</string>
+    <string name="umeng_check_vk">vkontakte</string>
+    <string name="umeng_choose_style">选择分享类型</string>
+
+    <string name="umeng_sharebutton_copy">复制文本</string>
+    <string name="umeng_sharebutton_copyurl">复制连接</string>
+    <string name="umeng_share">分享成功</string>
+    <string name="umeng_share_cancel">取消分享</string>
+    <string name="umeng_share_failed">分享失败</string>
+
+
+    <!--Login-->
+    <string name="login_user_name">请输入用户名/手机号</string>
+    <string name="login_password">密码</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_login_btn">登录</string>
+    <string name="login_other_way">其他登入方式</string>
+    <string name="login_create_account">创建新账号</string>
+    <string name="login_user_name_wrong">输入的手机号有误</string>
+    <string name="login_pas_empty">密码为空</string>
+    <string name="login_mobile_empty">手机号为空</string>
+    <string name="login_third_bind">绑定手机号</string>
+    <string name="login_third_bind_tel">绑定已有手机号</string>
+
+    <string name="login_to_format">登陆到%s</string>
+    <string name="remove_to_format">注销%s登录</string>
+    <string name="remove_to_format_success">成功移除%s登录信息</string>
+
+    <string name="register_user_info">用户信息</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+
+    <!--LOAN-->
+    <string name="loan_phone">输入手机号</string>
+    <string name="loan_apply">立即申请</string>
+    <string name="loan_phone_wrong">您输入的电话有误</string>
+    <string name="loan_location">您选择的地址： %s</string>
+    <string name="loan_current_location">当前定位地址： %s</string>
+    <string name="loan_current_location_">获取定位权限失败,请手动开启%s权限,否则无法启动应用！</string>
+    <string name="loan">申请</string>
+    <string name="loan_info_empty">您的“个人信息”未完善，请先完善资料，再来体验该功能</string>
+    <string name="loan_info">完善资料</string>
+    <string name="loan_without_realName">未实名,请先进行“实名认证”</string>
+    <string name="loan_realName">实名认证</string>
+
+    <!--Personal-->
+    <string name="personal_loan">放款额度: %s 万元</string>
+    <string name="personal_count">费用计算</string>
+    <string name="personal_info">个人信息</string>
+    <string name="personal_edit">编辑</string>
+    <string name="personal_ggsj">更改手机</string>
+    <string name="personal_shjd">审核进度</string>
+    <string name="personal_fxzx">团队管理</string>
+    <string name="personal_lxkf">联系客服</string>
+    <string name="personal_yqhy">邀请好友</string>
+    <string name="personal_smrz">实名认证</string>
+    <string name="personal_smrz_search">正在查询认证状态</string>
+    <string name="personal_smrz_notpass">暂未通过实名审核</string>
+    <string name="personal_smrz_not">未进行实名认证</string>
+    <string name="personal_smrz_pass">您已通过实名审核！</string>
+    <string name="personal_not_smrz">该手机号未进行实名注册！请选择进行实名认证！</string>
+    <string name="personal_invite">我的邀请</string>
+    <string name="personal_yjfk">意见反馈</string>
+    <string name="personal_aqsz">安全设置</string>
+    <string name="photo_album">相册</string>
+    <string name="photo_graph">拍照</string>
+    <string name="personal_lxkf_alert">拨打客服电话？\n\n%s</string>
+    <string name="personal_lxkf_number">0431-8167-9887</string>
+    <!--Reviewed-->
+    <string name="reviewed_time">送审时间：%s</string>
+    <string name="reviewed_cdd">车抵贷</string>
+    <string name="reviewed_money">放款额度： %s 万元</string>
+    <!--RealName-->
+    <string name="real_title">身份认证</string>
+    <string name="real_name">真实姓名</string>
+    <string name="real_input_name">请填写真实姓名</string>
+    <string name="real_name_input">如实填写</string>
+    <string name="real_number">证件号码</string>
+    <string name="real_input_number">证件号码有误</string>
+    <string name="real_photo">证件照片</string>
+    <string name="real_post_idCard">上传身份证正面</string>
+    <string name="real_post_idCard_back">上传身份证背面</string>
+    <string name="real_post">提交</string>
+    <!--Info-->
+    <string name="info_commen">请选择</string>
+    <string name="info_choose">请重新选择一次</string>
+    <string name="info_job">子女情况</string>
+    <string name="info_marriage">婚姻情况</string>
+    <string name="info_educate">您的学历</string>
+    <string name="info_credit">信用记录</string>
+    <string name="info_cqz">是否有产权证</string>
+    <string name="info_sb">是否有社保</string>
+    <string name="info_income">收入情况</string>
+    <string name="info_real_name">真实姓名</string>
+    <string name="info_phone">手机号码</string>
+    <string name="info_work">子女情况</string>
+    <string name="info_education">文化程度</string>
+    <string name="info_change">确定修改</string>
+
+    <!--Save-->
+    <string name="save_title">安全设置</string>
+    <string name="save_change">修改登录密码</string>
+    <string name="save_find">找回登录密码</string>
+    <string name="save_exit">退出登录</string>
+    <string name="exit_confirm">确定退出登录？</string>
+    <string name="save_version">当前版本：%s</string>
+    <string name="save_check_version">正在检测新版本</string>
+    <string name="save_no_version">已是最新版本</string>
+    <!--Msg-->
+    <string name="msg_title">意见反馈</string>
+    <string name="msg_edit_hint">欢迎提出您的建议（必填）</string>
+    <string name="msg_connect">手机号／微信号／邮箱，方便我们联系您（选填）</string>
+    <string name="msg_tip">如果您的问题急需解决，您可以</string>
+    <!--ChangePhone-->
+    <string name="change_title">更换手机号</string>
+    <string name="change_tip">请输入新手机号，如果收不到验证短信，请拨打客服电话%s更改手机号码。</string>
+    <string name="change_phone">输入新手机号</string>
+    <string name="change_code">输入验证码</string>
+    <string name="change_phone_wrong">输入的手机号有误</string>
+    <string name="change_code_wrong">输入的验证码有误</string>
+
+    <!--distribution-->
+    <string name="d_phone">电话号码</string>
+    <string name="d_points">我的积分</string>
+    <string name="d_loan">放款额度</string>
+    <string name="d_extend">我的推广</string>
+    <string name="d_invite">我的邀请</string>
+    <string name="d_review">我的审核</string>
+    <string name="d_level_update" formatted="false">还有 %s 额度可升级到 %s</string>
+    <string name="d_team_money">团队金额</string>
+    <string name="d_team_money_2">%s 万元</string>
+    <string name="d_highest_level">您已是最高级别</string>
+    <string name="d_team_money_info">团队放款信息</string>
+    <string name="d_invite_friend">邀请好友</string>
+    <string name="d_level">会员等级</string>
+    <string name="d_about">关于推广</string>
+    <string name="d_current_level">当前等级: %s</string>
+
+    <!--Team-->
+    <string name="d_t_title">团队放款信息</string>
+
+    <!--CDD-->
+    <string name="cdd_title">车抵贷</string>
+    <string name="cdd_select_car_brand">选择品牌</string>
+    <string name="cdd_select_car_type">选择车型</string>
+    <string name="cdd_select_car_model">选择车款</string>
+
+    <!--CYD-->
+    <string name="cyd_title">车易贷</string>
+    <string name="cyd_next">下一步</string>
+    <string name="cyd_wrong">该字段不能为空</string>
+    <string name="cyd_type">品牌车型</string>
+    <string name="cyd_type_check">请选择品牌车型</string>
+    <string name="cyd_name">真实姓名</string>
+    <string name="cyd_name_input">请输入您的真实姓名</string>
+    <string name="cyd_phone">手机号码</string>
+    <string name="cyd_phone_input">请输入您的常用号码</string>
+    <string name="cyd_code">短信验证码</string>
+    <string name="cyd_code_input">请输入验证码</string>
+    <string name="cyd_call_time">接电话意向时间</string>
+
+    <!--FDD-->
+    <string name="fdd_title">房抵贷</string>
+    <string name="fdd_yyjk">已有借款</string>
+    <string name="fdd_select_bank">请输入银行</string>
+    <string name="fdd_bank">曾借款银行</string>
+    <string name="fdd_money">曾借款额度</string>
+    <string name="fdd_intent_money">意向贷款额度</string>
+    <string name="fdd_money_2">万元</string>
+    <string name="fdd_money_input">请输入额度</string>
+    <string name="fdd_fcz">房产证</string>
+    <string name="chose_pic">请先选择照片</string>
+    <string name="finish_loan">您已成功申请一笔%s，目前正在审核中，您可以在“审核进度”中查询审核状态</string>
+    <string name="check_review">查看审核进度</string>
+    <string name="connect_once">同一个联系方式只能添加一次</string>
+
+    <string name="pic_out_1_empty">未选择小区正门照片</string>
+    <string name="pic_out_2_empty">未选择小区外景照片</string>
+    <string name="pic_out_1_fail">上传小区正门照片失败</string>
+    <string name="pic_out_2_fail">上传小区外景照片失败</string>
+    <string name="pic_out_1_success">上传小区正门照片成功</string>
+    <string name="pic_out_2_success">上传小区外景照片成功</string>
+
+    <string name="pic_in_1_empty">未选择房屋装饰内景照片</string>
+    <string name="pic_in_2_empty">未选择房屋外景照片</string>
+    <string name="pic_in_1_fail">上传房屋装饰内景照片失败</string>
+    <string name="pic_in_2_fail">上传房屋外景照片失败</string>
+    <string name="pic_in_1_success">上传房屋装饰内景照片成功</string>
+    <string name="pic_in_2_success">上传房屋外景照片成功</string>
+
+    <string name="pic_fcz_1_empty">未选择房产证所有人页照片</string>
+    <string name="pic_fcz_2_empty">未选择房产证附记页照片</string>
+    <string name="pic_fcz_1_fail">上传房产证所有人页失败</string>
+    <string name="pic_fcz_2_fail">上传房产证附记页失败</string>
+    <string name="pic_fcz_1_success">上传房产证所有人页成功</string>
+    <string name="pic_fcz_2_success">上传房产证附记页成功</string>
+
+
+    <!--FYD-->
+    <string name="fyd_title">房易贷</string>
+    <string name="fyd_location">房屋所在地</string>
+    <string name="fyd_location_select">请选择房屋所在地</string>
+    <string name="fyd_area">建筑面积</string>
+    <string name="fyd_area_2">平方米</string>
+    <string name="fyd_area_input">请输入建筑面积</string>
+    <string name="fyd_base_title">申请人基本资料</string>
+    <string name="fyd_base_input">请输入</string>
+    <string name="fyd_base_select">请选择</string>
+    <string name="fyd_base_info">填写资料</string>
+    <string name="fyd_base_name">姓名</string>
+    <string name="fyd_base_type">证件类型</string>
+    <string name="fyd_base_number">证件号码</string>
+    <string name="fyd_base_address">现居住地</string>
+    <string name="fyd_base_trade">从事行业</string>
+    <string name="fyd_base_profession">任职岗位</string>
+    <string name="fyd_base_trade_address">单位地址</string>
+    <string name="fyd_base_income">每月收入</string>
+
+    <string name="fyd_connect">联系人</string>
+    <string name="fyd_house_out_photo">小区照片</string>
+    <string name="fyd_house_out_photo1">拍摄小区正门照片</string>
+    <string name="fyd_house_out_photo2">小区照片</string>
+    <string name="fyd_house_in_photo">房屋照片</string>
+
+    <!--Photo-->
+    <string name="add_exchange_picture">修改图片</string>
+
+    <!--Update-->
+    <string name="update">检查更新</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="my_exit_dialog_message">知道了</string>
+    <string name="personal_bqmz">版权免责</string>
+    <string name="personal_notice">消息中心</string>
+    <string name="notice_code_error">啊，消息去了异次元~</string>
+    <string name="have_notice">通知消息</string>
+    <string name="personal_crash">崩溃测试</string>
+
+    <!-- QR_Code -->
+    <string name="button_ok">OK</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the
+        device.
+    </string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="scan_text">放入框中即可进行二维码扫描</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="preferences_vibrate">preferences_vibrate</string>
+    <string name="preferences_play_beep">preferences_play_beep</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="preview_msg">&#160;preview pages available,click Download for more.</string>
+    <string name="personal_qrcode">二维码测试</string>
+    <string name="loan_gold_business">金牌业务</string>
+    <string name="loan_clerk_list">业务员列表</string>
+    <string name="clerk_name">小明同学</string>
+    <string name="high_clerk_level">资深业务员</string>
+    <string name="clerk_company">所属公司</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_normal">普通用户入口</string>
+    <string name="register_input_company">所属公司</string>
+    <string name="register_clert">业务员入口</string>
+    <string name="register_normal_p">用户</string>
+    <string name="personal_my_qrcode">我的二维码</string>
+    <string name="welcome_register">扫一扫，快来注册吧~</string>
+    <string name="share_qq">发送到QQ</string>
+    <string name="share_qzone">Qzone</string>
+    <string name="share_wechat">发送到微信</string>
+    <string name="share_wxcircle">分享到朋友圈</string>
+    <string name="personal_daily_work">工作日志</string>
+    <string name="project_progress">项目进度</string>
+    <string name="input_project_progress">请输入项目进度</string>
+    <string name="biz_expansion">业务拓展</string>
+    <string name="input_biz_expansion">请输入业务拓展</string>
+    <string name="daily_work">日常工作</string>
+    <string name="input_daily_work">请输入日常工作</string>
+    <string name="daily_work_commit">提交</string>
+    <string name="bad_progress">不良项目\n进度</string>
+    <string name="input_bad_progress">请输入不良项目进度</string>
+    <string name="input_need_support">请输入所需支持</string>
+    <string name="need_support">所需支持</string>
+    <string name="content_numbers_prefix">(</string>
+    <string name="content_numbers_suffix">/140)</string>
+    <string name="picture_crop">图片裁剪</string>
+
+</resources>

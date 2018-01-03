@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f04b42</color>
+    <color name="colorPrimaryDark">#f04b42</color>
+    <color name="colorAccent">#f04b42</color>
+    <color name="colorBlue">#7fd8fd</color>
+    <color name="colorGray">#a0a0a0</color>
+
+    <color name="tabLayout_textColor">#8e8e8e</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray"> #ebebeb</color>
+    <color name="level_yellow"> #f0de70</color>
+    <color name="d_orange"> #fb924e</color>
+    <color name="d_green"> #8ac78d</color>
+    <color name="d_red"> #ec5854</color>
+    <color name="d_tbbg_orange">#F84F41</color>
+    <color name="gray_notice">#717171</color>
+    <color name="black_notice">#010101</color>
+
+    <color name="btn_bg_gray">#BDBAB5</color>
+    <color name="btn_bg_lightgray">#E4E4E4</color>
+    <color name="bg_light_gray">#F2F2F2</color>
+    <color name="red_base">#F88986</color>
+    <color name="yellow"> #F7EED6</color>
+    <color name="biz_gold">#EFAC40</color>
+    <color name="gray_biz_text">#5D5D5D</color>
+
+    <!-- QR_Code -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="system_bar_color">#fed952</color>
+
+    <!--picker-->
+    <color name="__picker_pager_bg">#CA000000</color>
+    <color name="__picker_selected_bg">#44000000</color>
+    <color name="__picker_black_40">#282828</color>
+    <color name="__picker_common_primary">#f3f3f3</color>
+
+    <color name="__picker_text_40">#282828</color>
+    <color name="__picker_text_80">#505050</color>
+    <color name="__picker_text_120">#787878</color>
+    <color name="__picker_item_photo_border_selected">#f04b42</color>
+    <!--#ff99cc00-->
+    <color name="__picker_item_photo_border_n">#33ffffff</color>
+
+</resources>

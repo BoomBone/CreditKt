@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_tab_margin">20dp</dimen>
+
+    <dimen name="margin_little">2dp</dimen>
+    <dimen name="margin_three">3dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_middle">6dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="margin_twelve">12dp</dimen>
+    <dimen name="margin_fourteen">14dp</dimen>
+    <dimen name="margin_fifteen">15dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_eighteen">18dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_twenty_two">22dp</dimen>
+    <dimen name="margin_twenty_three">23dp</dimen>
+    <dimen name="margin_twenty_four">24dp</dimen>
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_thirty">30dp</dimen>
+    <dimen name="margin_thirty_five">35dp</dimen>
+    <dimen name="margin_thirty_six">36dp</dimen>
+    <dimen name="margin_thirty_seven">37dp</dimen>
+    <dimen name="margin_forty">40dp</dimen>
+    <dimen name="actionBarSize">48dp</dimen>
+    <dimen name="head_height">45dp</dimen>
+    <dimen name="margin_fifty">50dp</dimen>
+    <dimen name="margin_sixty">60dp</dimen>
+    <dimen name="margin_seventy">70dp</dimen>
+    <dimen name="margin_eighty">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_d_width">180dp</dimen>
+    <dimen name="margin_d_height">130dp</dimen>
+
+    <dimen name="text_seven">7sp</dimen>
+    <dimen name="text_eight">8sp</dimen>
+    <dimen name="text_nine">9sp</dimen>
+    <dimen name="text_ten">10sp</dimen>
+    <dimen name="text_eleven">11sp</dimen>
+    <dimen name="text_less">12sp</dimen>
+    <dimen name="text_little">14sp</dimen>
+    <dimen name="text_tiny">16sp</dimen>
+    <dimen name="text_middle">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_huge">22sp</dimen>
+    <dimen name="text_twenty_five">25sp</dimen>
+
+    <dimen name="head_img">70.0dp</dimen>
+
+    <dimen name="_15sp">15sp</dimen>
+
+
+</resources>
