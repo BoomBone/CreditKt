@@ -1,7 +1,8 @@
-package com.work.credit
+package com.work.credit.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.work.credit.R
 
 class MainActivity : AppCompatActivity() {
 
