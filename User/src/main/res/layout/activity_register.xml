@@ -242,7 +242,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/register_ensure"
+            android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/register_code"
@@ -257,7 +257,7 @@
             android:id="@+id/rg_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/register_ensure"
+            android:layout_below="@+id/btn_register"
             android:layout_marginLeft="@dimen/margin_eighty"
             android:layout_marginRight="@dimen/margin_eighty"
             android:layout_marginTop="@dimen/margin_twenty"
