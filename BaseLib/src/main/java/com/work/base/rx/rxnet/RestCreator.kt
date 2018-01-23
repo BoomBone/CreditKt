@@ -1,7 +1,7 @@
 package com.work.base.rx.rxnet
 
 
-import com.work.base.I
+import com.work.base.common.BaseConstance
 import com.work.ddnet.rx.RxRestService
 
 import java.util.WeakHashMap
@@ -33,7 +33,7 @@ object RestCreator {
      * 构建全局Retrofit客户端
      */
     private object RetrofitHolder {
-        private val BASE_URL = I.BaseUrl.URL
+        private val BASE_URL = BaseConstance.SERVER_ADDRESS
         val RETROFIT_CLIENT = Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(ScalarsConverterFactory.create())
