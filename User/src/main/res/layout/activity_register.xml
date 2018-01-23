@@ -2,40 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@mipmap/login_background"
     android:orientation="vertical">
 
-    <RelativeLayout
-        android:id="@+id/toolbar"
+    <com.work.base.widgets.HeaderBar
         android:layout_width="match_parent"
-        android:layout_height="48dip"
-        android:background="@color/colorPrimary">
-
-        <LinearLayout
-            android:id="@+id/ll_back"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:background="@mipmap/ssdk_back_arr" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/register_user"
-            android:textColor="@android:color/white"
-            android:textSize="20sp" />
-
-    </RelativeLayout>
+        android:layout_height="wrap_content"
+        app:titleText="@string/register_user"
+        />
 
     <RelativeLayout
         android:layout_width="match_parent"
