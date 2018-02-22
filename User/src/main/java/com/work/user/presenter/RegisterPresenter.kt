@@ -12,16 +12,22 @@ import com.work.user.presenter.view.RegisterView
  * @function Presenter层用于处理业务逻辑
  */
 class RegisterPresenter : BasePresenter<RegisterView>() {
-    fun register(mobile: String, verifyCode: String, pwd: String, view: RegisterView) {
+    fun register(mobile: String, verifyCode: String, pwd: String) {
         /**
          * 业务逻辑
          * 可以直接网络请求了
          */
+        if (!checkNetWork()) {
+            println("网络不可用")
+            return
+        }
+        mView.showLoading()
         val userService = UserServiceImpl()
         userService.register(mobile, verifyCode, pwd)
-                .execute(object : BaseObserver<Boolean>(view) {
+                .execute(object : BaseObserver<Boolean>(mView) {
                     override fun onNext(t: Boolean) {
                         Log.e("main", "onNext")
+                        mView.hideLoading()
                     }
                 })
 
