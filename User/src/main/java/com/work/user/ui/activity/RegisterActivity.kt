@@ -1,11 +1,9 @@
 package com.work.user.ui.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.work.base.ui.activity.BaseMvpActivity
-import com.work.ddnet.rx.RxRestClient
 import com.work.user.R
+import com.work.user.injection.component.DaggerUserComponent
 import com.work.user.presenter.RegisterPresenter
 import com.work.user.presenter.view.RegisterView
 import kotlinx.android.synthetic.main.activity_register.*
@@ -20,7 +18,7 @@ class RegisterActivity : BaseMvpActivity<RegisterPresenter>(), RegisterView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        mPresenter = RegisterPresenter()
+        DaggerUserComponent.builder().build().inject(this)
         mPresenter.mView = this
 
         btn_register.setOnClickListener {

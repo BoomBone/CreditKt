@@ -6,11 +6,12 @@ import com.work.base.presenter.BasePresenter
 import com.work.base.rx.BaseObserver
 import com.work.user.presenter.service.impl.UserServiceImpl
 import com.work.user.presenter.view.RegisterView
+import javax.inject.Inject
 
 /**
  * Created by Ting on 2018/1/4.
  */
-class RegisterPresenter : BasePresenter<RegisterView>() {
+class RegisterPresenter @Inject constructor() : BasePresenter<RegisterView>() {
     fun register(mobile: String, verifyCode: String, pwd: String) {
         /**
          * 业务逻辑
@@ -18,7 +19,7 @@ class RegisterPresenter : BasePresenter<RegisterView>() {
          */
         val userService = UserServiceImpl()
         userService.register(mobile, verifyCode, pwd)
-                .execute(object : BaseObserver<Boolean>() {
+                .execute(object : BaseObserver<Boolean>(mView) {
                     override fun onNext(t: Boolean) {
                         Log.e("main", "onNext")
                     }
