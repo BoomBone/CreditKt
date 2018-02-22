@@ -1,10 +1,7 @@
 package com.work.user.ui.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.work.base.ui.activity.BaseMvpActivity
-import com.work.ddnet.rx.RxRestClient
 import com.work.user.R
 import com.work.user.presenter.RegisterPresenter
 import com.work.user.presenter.view.RegisterView
@@ -19,12 +16,15 @@ class RegisterActivity : BaseMvpActivity<RegisterPresenter>(), RegisterView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
-
-        mPresenter = RegisterPresenter()
-        mPresenter.mView = this
+        initInjection()
 
         btn_register.setOnClickListener {
             mPresenter.register("", "", "")
         }
+    }
+
+    private fun initInjection() {
+        mPresenter =RegisterPresenter()
+        mPresenter.mView = this
     }
 }

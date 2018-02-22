@@ -51,7 +51,7 @@ dependencies {
     api "org.jetbrains.anko:anko-appcompat-v7-coroutines:$anko_version"
 
     //Dagger2
-    compile "com.google.dagger:dagger:$dagger_version"
+    api "com.google.dagger:dagger:$dagger_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
 
     // RxKotlin and RxAndroid

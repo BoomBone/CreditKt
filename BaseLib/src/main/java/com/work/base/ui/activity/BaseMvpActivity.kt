@@ -5,6 +5,7 @@ import com.work.base.presenter.BasePresenter
 import com.work.base.presenter.view.BaseView
 import com.work.base.widgets.ProgressLoading
 import org.jetbrains.anko.toast
+import javax.inject.Inject
 
 /**
  * Created by Ting on 2018/1/4.
@@ -31,5 +32,6 @@ abstract open class BaseMvpActivity<T : BasePresenter<*>> : BaseActivity(), Base
         toast(text)
     }
 
+    //Presenter泛型，Dagger注入
     lateinit var mPresenter: T
 }
