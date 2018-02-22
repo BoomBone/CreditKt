@@ -7,6 +7,7 @@ import java.util.*
 
 /**
  * Created by Ting on 2018/1/23.
+ * @function 用于管理App的Activity,入栈，出栈退出App
  */
 class AppManager private constructor() {
 
