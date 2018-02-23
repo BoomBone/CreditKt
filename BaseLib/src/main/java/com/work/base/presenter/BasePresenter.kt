@@ -12,9 +12,13 @@ open class BasePresenter<T : BaseView> {
     lateinit var mView: T
 
     @Inject
-    lateinit var context:Context
+    lateinit var context: Context
 
-    fun checkNetWork():Boolean{
-        return NetWorkUtils.isNetWorkAvailable(context)
+    fun checkNetWork(): Boolean {
+        if (NetWorkUtils.isNetWorkAvailable(context)) {
+            return true
+        }
+        mView.onError("网络不可用")
+        return false
     }
 }
