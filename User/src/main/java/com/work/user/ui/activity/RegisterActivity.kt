@@ -18,7 +18,10 @@ class RegisterActivity : BaseMvpActivity<RegisterPresenter>(), RegisterView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        DaggerUserComponent.builder().build().inject(this)
+        DaggerUserComponent.builder()
+                .activityComponent(activityComponent)
+                .build()
+                .inject(this)
         mPresenter.mView = this
 
         btn_register.setOnClickListener {
