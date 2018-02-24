@@ -77,4 +77,7 @@ dependencies {
 
     //Logger
     compile 'com.orhanobut:logger:2.1.1'
+
+    //banner
+    api 'com.youth.banner:banner:1.4.10'
 }
