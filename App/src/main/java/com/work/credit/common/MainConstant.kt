@@ -9,7 +9,7 @@ package com.work.credit.common
 const val HOME_BANNER_ONE = "http://img1.gamersky.com/upimg/pic/2017/08/28/201708280922251343.jpg"
 const val HOME_BANNER_TWO = "http://img1.gamersky.com/upimg/pic/2017/05/05/201705050957548191.jpg"
 const val HOME_BANNER_THREE = "http://img1.gamersky.com/upimg/pic/2017/05/06/201705061740277779.jpg"
-const val HOME_BANNER_FOUR = "http://img1.gamersky.com/upimg/pic/2017/04/24/201704240941024625.jpg"
+const val HOME_BANNER_FOUR = "http://img1.gamersky.com/upimg/pic/2017/04/21/201704211053158994.jpg"
 
 /*
    首页折扣图片
