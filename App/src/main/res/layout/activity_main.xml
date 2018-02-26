@@ -1,37 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@mipmap/login_background"
-    android:orientation="vertical">
-
+    android:id="@+id/root_view">
     <LinearLayout
-        android:id="@+id/main_activity_tabs_line"
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/network_error_layout"/>
+    </LinearLayout>
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@android:color/white"
-        android:orientation="vertical">
-
-        <View
+        android:layout_below="@+id/line1">
+        <com.work.base.view.CustomScrollViewPager
+            android:id="@+id/main_activity_viewpager"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_above="@+id/main_activity_tabs"
-            android:layout_marginBottom="@dimen/margin_little"
-            android:background="@color/gray_300" />
+            android:layout_height="match_parent"
+            android:layout_above="@+id/main_activity_tabs_line"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:scrolled="true" />
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/main_activity_tabs"
+        <LinearLayout
+            android:id="@+id/main_activity_tabs_line"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:background="@android:color/white"
-            app:tabGravity="fill"
-            app:tabIndicatorColor="@color/colorPrimary"
-            app:tabIndicatorHeight="0dp"
-            app:tabMode="fixed"
-            app:tabSelectedTextColor="@color/colorPrimary"
-            app:tabTextColor="@color/tabLayout_textColor" />
-    </LinearLayout>
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/main_activity_tabs"
+                android:layout_marginBottom="@dimen/margin_little"
+                android:background="@color/gray_300" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/main_activity_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabTextColor="@color/tabLayout_textColor" />
+        </LinearLayout>
+    </RelativeLayout>
 
 </RelativeLayout>
