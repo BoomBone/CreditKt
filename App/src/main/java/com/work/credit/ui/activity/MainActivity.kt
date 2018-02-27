@@ -3,7 +3,6 @@ package com.work.credit.ui.activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.work.base.view.CustomScrollViewPager
 import com.work.credit.R
 import com.work.credit.ui.adapter.ViewPagerAdapter

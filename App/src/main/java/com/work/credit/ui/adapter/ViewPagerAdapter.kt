@@ -10,17 +10,17 @@ import com.work.credit.R
 import kotlinx.android.synthetic.main.custom_tabview.view.*
 
 /**
- * Created by Ting on 2018/2/26.
- */
+* Created by Ting on 2018/2/26.
+*/
 class ViewPagerAdapter(fm: FragmentManager?, context: Context) : FragmentPagerAdapter(fm) {
-    val mFragmentList = arrayListOf<Fragment>()
-    val mContext =context
-    val tabIcons = arrayOf(R.drawable.main_tab_home_select
+    private val mFragmentList = arrayListOf<Fragment>()
+    private val mContext =context
+    private val tabIcons = arrayOf(R.drawable.main_tab_home_select
             , R.drawable.main_tab_find_select
             , R.drawable.main_tab_mine_select)
-    val titles = arrayOf("首页", "我要贷款", "个人中心")
+    private val titles = arrayOf("首页", "我要贷款", "个人中心")
     override fun getItem(position: Int): Fragment {
-        return mFragmentList.get(position)
+        return mFragmentList[position]
     }
 
     override fun getCount(): Int {
@@ -40,7 +40,7 @@ class ViewPagerAdapter(fm: FragmentManager?, context: Context) : FragmentPagerAd
         v.tab_imageview.setImageResource(tabIcons[position])
         v.tab_textview.text = titles[position]
         if (position == 0) {
-            v.setSelected(true)
+            v.isSelected = true
         }
         return v
     }
