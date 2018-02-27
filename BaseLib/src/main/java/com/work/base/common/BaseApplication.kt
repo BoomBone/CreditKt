@@ -7,8 +7,8 @@ import com.work.base.injection.component.DaggerAppComponent
 import com.work.base.injection.module.AppModule
 
 /**
- * Created by Ting on 2018/2/23.
- */
+* Created by Ting on 2018/2/23.
+*/
 class BaseApplication : Application() {
     lateinit var appComponent: AppComponent
     override fun onCreate() {

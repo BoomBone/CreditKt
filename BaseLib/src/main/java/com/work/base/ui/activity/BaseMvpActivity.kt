@@ -16,6 +16,9 @@ import javax.inject.Inject
  */
 abstract open class BaseMvpActivity<T : BasePresenter<*>> : BaseActivity(), BaseView {
 
+    @Inject
+    lateinit var mPresenter: T
+
     private lateinit var mLoadingDialog: ProgressLoading
 
     lateinit var activityComponent: ActivityComponent
@@ -46,8 +49,4 @@ abstract open class BaseMvpActivity<T : BasePresenter<*>> : BaseActivity(), Base
     override fun onError(text: String) {
         toast(text)
     }
-
-    @Inject
-    lateinit var mPresenter: T
-
 }
