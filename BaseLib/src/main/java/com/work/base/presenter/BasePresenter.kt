@@ -2,7 +2,7 @@ package com.work.base.presenter
 
 import android.content.Context
 import com.work.base.presenter.view.BaseView
-import com.work.base.utils.NetWorkUtils
+import com.work.base.utils.network.NetWorkUtil
 import javax.inject.Inject
 
 /**
@@ -15,7 +15,7 @@ open class BasePresenter<T : BaseView> {
     lateinit var context: Context
 
     fun checkNetWork(): Boolean {
-        if (NetWorkUtils.isNetWorkAvailable(context)) {
+        if (NetWorkUtil.isNetworkAvailable(context)) {
             return true
         }
         mView.onError("网络不可用")

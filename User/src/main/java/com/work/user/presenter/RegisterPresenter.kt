@@ -4,7 +4,6 @@ import android.util.Log
 import com.work.base.ext.execute
 import com.work.base.presenter.BasePresenter
 import com.work.base.rx.BaseObserver
-import com.work.base.utils.NetWorkUtils
 import com.work.user.presenter.service.impl.UserServiceImpl
 import com.work.user.presenter.view.RegisterView
 import javax.inject.Inject

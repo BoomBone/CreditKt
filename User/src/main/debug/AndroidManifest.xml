@@ -19,10 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.work.user.ui.activity.OneActivity">
-
-        </activity>
-        <activity android:name="com.work.user.ui.activity.TwoActivity"></activity>
     </application>
 
 </manifest>
