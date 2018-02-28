@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.work.base.ui.fragment.BaseFragment
 import com.work.base.widgets.BannerImageLoader
 
 import com.work.credit.R
@@ -18,7 +19,7 @@ import kotlinx.android.synthetic.main.fragment_main.*
 /**
  * A simple [Fragment] subclass.
  */
-class MainFragment : Fragment() {
+class MainFragment : BaseFragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
@@ -30,6 +31,7 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initBanner()
+        initNews()
     }
 
     /*
@@ -46,6 +48,18 @@ class MainFragment : Fragment() {
         banner_home.setIndicatorGravity(BannerConfig.CENTER);
         //banner设置方法全部调用完毕时最后调用
         banner_home.start();
+    }
+
+    private fun initNews() {
+
+        val info = arrayListOf<String>()
+        info.add("1. 大家好，我是孙福生。")
+        info.add("2. 欢迎大家关注我哦！")
+        info.add("3. GitHub帐号：sfsheng0322")
+        info.add("4. 新浪微博：孙福生微博")
+        info.add("5. 个人博客：sunfusheng.com")
+        info.add("6. 微信公众号：孙福生")
+        mv_notice.startWithList(info, R.anim.anim_bottom_in, R.anim.anim_top_out)
     }
 
 }// Required empty public constructor
