@@ -73,7 +73,10 @@ dependencies {
     api 'com.alibaba:fastjson:1.1.57.android'
 
     //Glide
-    compile "com.github.bumptech.glide:glide:3.7.0"
+    api ("com.github.bumptech.glide:glide:4.5.0") {
+        exclude group: "com.android.support"
+    }
+    kapt 'com.github.bumptech.glide:compiler:4.5.0'
 
     //Logger
     compile 'com.orhanobut:logger:2.1.1'
