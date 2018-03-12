@@ -1,4 +1,4 @@
-package com.work.credit.common
+package com.dexin.creditkt.common
 
 /**
  * Created by Ting on 2018/2/24.

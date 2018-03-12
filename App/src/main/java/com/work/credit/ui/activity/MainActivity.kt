@@ -1,13 +1,10 @@
 package com.work.credit.ui.activity
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.work.base.injection.component.DaggerAppComponent
-import com.work.base.ui.activity.BaseActivity
 import com.work.base.ui.activity.BaseMvpActivity
-import com.work.base.utils.log.DiLog
 import com.work.base.utils.network.NetChangeObserver
 import com.work.base.utils.network.NetWorkReceiver
 import com.work.base.utils.network.NetWorkUtil
@@ -16,10 +13,6 @@ import com.work.credit.R
 import com.work.credit.injection.component.DaggerMainComponent
 import com.work.credit.present.MainPresent
 import com.work.credit.present.view.MainView
-import com.work.credit.ui.adapter.ViewPagerAdapter
-import com.work.credit.ui.fragment.LoanFragment
-import com.work.credit.ui.fragment.MainFragment
-import com.work.credit.ui.fragment.PersonalFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.network_error_layout.*
 

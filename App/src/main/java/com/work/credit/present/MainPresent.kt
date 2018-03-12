@@ -7,10 +7,9 @@ import com.work.base.presenter.BasePresenter
 import com.work.base.view.CustomScrollViewPager
 import com.work.credit.present.view.MainView
 import com.work.credit.ui.adapter.ViewPagerAdapter
-import com.work.credit.ui.fragment.LoanFragment
-import com.work.credit.ui.fragment.MainFragment
-import com.work.credit.ui.fragment.PersonalFragment
-import kotlinx.android.synthetic.main.activity_main.*
+import com.dexin.creditkt.ui.fragment.LoanFragment
+import com.dexin.creditkt.ui.fragment.MainFragment
+import com.dexin.creditkt.ui.fragment.PersonalFragment
 import javax.inject.Inject
 
 /*

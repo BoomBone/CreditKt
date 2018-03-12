@@ -1,4 +1,4 @@
-package com.work.credit.ui.fragment
+package com.dexin.creditkt.ui.fragment
 
 
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.dexin.creditkt.R
+import com.dexin.creditkt.common.*
 import com.work.base.ui.fragment.BaseFragment
 import com.work.base.widgets.BannerImageLoader
 
-import com.work.credit.R
-import com.work.credit.common.*
 import com.youth.banner.BannerConfig
 import com.youth.banner.Transformer
 import kotlinx.android.synthetic.main.fragment_main.*

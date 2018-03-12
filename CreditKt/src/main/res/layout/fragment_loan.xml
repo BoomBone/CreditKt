@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.work.credit.ui.fragment.PersonalFragment">
+    tools:context="com.dexin.creditkt.ui.fragment.LoanFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
