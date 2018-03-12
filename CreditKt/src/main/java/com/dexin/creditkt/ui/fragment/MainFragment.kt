@@ -8,19 +8,30 @@ import android.view.View
 import android.view.ViewGroup
 import com.dexin.creditkt.R
 import com.dexin.creditkt.common.*
+import com.dexin.creditkt.present.HomePresent
 import com.work.base.ui.fragment.BaseFragment
+import com.work.base.ui.fragment.BaseMvpFragment
 import com.work.base.widgets.BannerImageLoader
+import com.work.credit.injection.component.DaggerHomeComponent
+import com.work.credit.present.view.HomeView
 
 import com.youth.banner.BannerConfig
 import com.youth.banner.Transformer
 import kotlinx.android.synthetic.main.fragment_main.*
+import javax.inject.Inject
 
 
 /**
  * A simple [Fragment] subclass.
  */
-class MainFragment : BaseFragment() {
-
+class MainFragment : BaseMvpFragment<HomePresent>(), HomeView {
+    override fun injectComponent() {
+        DaggerHomeComponent.builder()
+                .activityComponent(mActivityComponent)
+                .build()
+                .inject(this)
+        mPresenter.mView = this
+    }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -30,8 +41,10 @@ class MainFragment : BaseFragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initBanner()
-        initNews()
+//        initBanner()
+//        initNews()
+
+        mPresenter.println()
     }
 
     /*

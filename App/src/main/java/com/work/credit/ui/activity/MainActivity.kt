@@ -3,7 +3,6 @@ package com.work.credit.ui.activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import com.work.base.injection.component.DaggerAppComponent
 import com.work.base.ui.activity.BaseMvpActivity
 import com.work.base.utils.network.NetChangeObserver
 import com.work.base.utils.network.NetWorkReceiver
